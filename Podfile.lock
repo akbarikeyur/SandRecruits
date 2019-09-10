@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.1):
+    - Alamofire (~> 4.8)
+  - AlamofireJsonToObjects (2.4.1):
+    - Alamofire
+    - EVReflection
+  - EVReflection (5.10.0):
+    - EVReflection/Core (= 5.10.0)
+  - EVReflection/Core (5.10.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - MFSideMenu (0.5.5)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - PEPhotoCropEditor (1.3.1)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SKPhotoBrowser (6.0.0)
+  - Toaster (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireJsonToObjects
+  - IQKeyboardManagerSwift
+  - MFSideMenu
+  - NVActivityIndicatorView
+  - PEPhotoCropEditor
+  - SDWebImage
+  - SKPhotoBrowser
+  - Toaster
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireJsonToObjects
+    - EVReflection
+    - IQKeyboardManagerSwift
+    - MFSideMenu
+    - NVActivityIndicatorView
+    - PEPhotoCropEditor
+    - SDWebImage
+    - SKPhotoBrowser
+    - Toaster
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 1ea645cb3328d612ba7f3e3d75a947a17eb427c2
+  AlamofireJsonToObjects: 2f652417f69ca86f229b704cdd00370bb892af45
+  EVReflection: 1abc1a81927ab0d30170238cf9b79bff489e9728
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  PEPhotoCropEditor: 613292fce009efd085e7aed975f1ebb3fec8bb7b
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SKPhotoBrowser: 76eb862685761707b5745fde7762757966565e07
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+
+PODFILE CHECKSUM: b0058f45ea168530cc34c94cd480d5e506b8a7c7
+
+COCOAPODS: 1.6.0

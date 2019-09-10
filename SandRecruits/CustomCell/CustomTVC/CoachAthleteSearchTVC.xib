@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Hind-Medium.ttf">
+            <string>Hind-Medium</string>
+        </array>
+        <array key="Hind-Regular.ttf">
+            <string>Hind-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CoachAthleteSearchTVC" id="KGk-i7-Jjw" customClass="CoachAthleteSearchTVC" customModule="SandRecruits" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="137"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="136.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wWI-TA-zyv">
+                        <rect key="frame" x="8" y="8" width="304" height="120.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7C5-Yw-2ia">
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="120.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ByK-Zg-Prd">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="1"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="5A4-1x-25f"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ex-As-Mhz" customClass="Button" customModule="SandRecruits" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="18" width="64" height="64"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="Spr-eT-hZr"/>
+                                            <constraint firstAttribute="height" constant="64" id="V4V-0a-QOR"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="32"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zvy-yp-FdR">
+                                        <rect key="frame" x="80" y="8" width="120" height="105"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brooke Borgmeyer" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A36-Yz-xgu" customClass="Label" customModule="SandRecruits" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="8" width="110" height="42.5"/>
+                                                <fontDescription key="fontDescription" name="Hind-Medium" family="Hind" pointSize="14"/>
+                                                <color key="textColor" red="0.29411764709999999" green="0.64313725489999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                                        <integer key="value" value="11"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="hm"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SR# : 3857" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHt-hJ-SdX" customClass="Label" customModule="SandRecruits" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="53.5" width="111" height="22.5"/>
+                                                <fontDescription key="fontDescription" name="Hind-Regular" family="Hind" pointSize="15"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="hr"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wildwood, Missouri" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="H9H-t0-Br6" customClass="Label" customModule="SandRecruits" customModuleProvider="target">
+                                                <rect key="frame" x="4" y="77" width="112" height="22.5"/>
+                                                <fontDescription key="fontDescription" name="Hind-Regular" family="Hind" pointSize="15"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="hr"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="H9H-t0-Br6" secondAttribute="trailing" constant="4" id="4lk-lU-rn2"/>
+                                            <constraint firstItem="fHt-hJ-SdX" firstAttribute="leading" secondItem="Zvy-yp-FdR" secondAttribute="leading" constant="5" id="5AE-XN-X96"/>
+                                            <constraint firstItem="A36-Yz-xgu" firstAttribute="leading" secondItem="Zvy-yp-FdR" secondAttribute="leading" constant="5" id="BD9-CX-H3m"/>
+                                            <constraint firstItem="H9H-t0-Br6" firstAttribute="top" secondItem="fHt-hJ-SdX" secondAttribute="bottom" constant="1" id="M5W-8a-o0z"/>
+                                            <constraint firstItem="A36-Yz-xgu" firstAttribute="top" secondItem="Zvy-yp-FdR" secondAttribute="top" constant="8" id="PbY-0D-fm1"/>
+                                            <constraint firstAttribute="trailing" secondItem="fHt-hJ-SdX" secondAttribute="trailing" constant="4" id="Su4-fL-LAs"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="H9H-t0-Br6" secondAttribute="bottom" constant="4" id="eV1-ES-FUG"/>
+                                            <constraint firstItem="fHt-hJ-SdX" firstAttribute="top" secondItem="A36-Yz-xgu" secondAttribute="bottom" constant="3" id="k7P-dR-X4p"/>
+                                            <constraint firstAttribute="trailing" secondItem="A36-Yz-xgu" secondAttribute="trailing" constant="5" id="lTb-BC-QhS"/>
+                                            <constraint firstItem="H9H-t0-Br6" firstAttribute="leading" secondItem="Zvy-yp-FdR" secondAttribute="leading" constant="4" id="sUK-Y7-aaO"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ilo-jk-oUk">
+                                        <rect key="frame" x="200" y="8" width="104" height="105"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkc-Oa-DLK" customClass="Label" customModule="SandRecruits" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="8" width="94" height="21"/>
+                                                <fontDescription key="fontDescription" name="Hind-Regular" family="Hind" pointSize="14"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                                        <integer key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="hm"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMh-XB-pzg">
+                                                <rect key="frame" x="37" y="35" width="30" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="31R-nt-23H"/>
+                                                    <constraint firstAttribute="width" constant="30" id="4RO-h1-mzG"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" image="favorite_off"/>
+                                                <state key="selected" image="favorite_on"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="jkc-Oa-DLK" secondAttribute="trailing" constant="5" id="PeD-FM-ddX"/>
+                                            <constraint firstItem="sMh-XB-pzg" firstAttribute="centerX" secondItem="ilo-jk-oUk" secondAttribute="centerX" id="VeI-jN-Pqe"/>
+                                            <constraint firstItem="sMh-XB-pzg" firstAttribute="top" secondItem="jkc-Oa-DLK" secondAttribute="bottom" constant="6" id="f1l-sy-ERB"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="sMh-XB-pzg" secondAttribute="bottom" constant="3" id="hNZ-Xz-gVh"/>
+                                            <constraint firstItem="jkc-Oa-DLK" firstAttribute="top" secondItem="ilo-jk-oUk" secondAttribute="top" constant="8" id="iJp-Zh-Xud"/>
+                                            <constraint firstItem="jkc-Oa-DLK" firstAttribute="leading" secondItem="ilo-jk-oUk" secondAttribute="leading" constant="5" id="rj7-Ts-iSX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="8Ex-As-Mhz" firstAttribute="top" secondItem="7C5-Yw-2ia" secondAttribute="top" constant="18" id="2jd-Pe-Q1j"/>
+                                    <constraint firstAttribute="trailing" secondItem="ByK-Zg-Prd" secondAttribute="trailing" id="7a2-0T-Edw"/>
+                                    <constraint firstItem="ByK-Zg-Prd" firstAttribute="leading" secondItem="7C5-Yw-2ia" secondAttribute="leading" id="AG4-Zt-Nq7"/>
+                                    <constraint firstItem="ByK-Zg-Prd" firstAttribute="top" secondItem="7C5-Yw-2ia" secondAttribute="top" id="BBc-cp-6Z6"/>
+                                    <constraint firstAttribute="trailing" secondItem="ilo-jk-oUk" secondAttribute="trailing" id="Cwk-Vd-PYc"/>
+                                    <constraint firstItem="Zvy-yp-FdR" firstAttribute="leading" secondItem="8Ex-As-Mhz" secondAttribute="trailing" constant="8" id="Ee7-jp-ocj"/>
+                                    <constraint firstAttribute="bottom" secondItem="ilo-jk-oUk" secondAttribute="bottom" constant="7.5" id="HsA-p2-79L"/>
+                                    <constraint firstItem="ByK-Zg-Prd" firstAttribute="leading" secondItem="7C5-Yw-2ia" secondAttribute="leading" id="JIm-1A-Dns"/>
+                                    <constraint firstItem="ilo-jk-oUk" firstAttribute="width" secondItem="Zvy-yp-FdR" secondAttribute="width" constant="-16" id="RdA-Uo-ODA"/>
+                                    <constraint firstItem="8Ex-As-Mhz" firstAttribute="leading" secondItem="7C5-Yw-2ia" secondAttribute="leading" constant="8" id="SFa-6o-h7g"/>
+                                    <constraint firstItem="ilo-jk-oUk" firstAttribute="top" secondItem="7C5-Yw-2ia" secondAttribute="top" constant="8" id="ZOf-yx-zGm"/>
+                                    <constraint firstAttribute="bottom" secondItem="Zvy-yp-FdR" secondAttribute="bottom" constant="7.5" id="kFj-hC-JgT"/>
+                                    <constraint firstAttribute="trailing" secondItem="ByK-Zg-Prd" secondAttribute="trailing" id="lxk-WK-8ep"/>
+                                    <constraint firstItem="Zvy-yp-FdR" firstAttribute="top" secondItem="7C5-Yw-2ia" secondAttribute="top" constant="8" id="s19-oe-epB"/>
+                                    <constraint firstItem="ilo-jk-oUk" firstAttribute="leading" secondItem="Zvy-yp-FdR" secondAttribute="trailing" id="vHU-bc-LdB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7C5-Yw-2ia" secondAttribute="trailing" id="74A-oL-ol7"/>
+                            <constraint firstAttribute="bottom" secondItem="7C5-Yw-2ia" secondAttribute="bottom" id="GOD-30-Gbu"/>
+                            <constraint firstItem="7C5-Yw-2ia" firstAttribute="top" secondItem="wWI-TA-zyv" secondAttribute="top" id="LY2-Kw-3Cp"/>
+                            <constraint firstItem="7C5-Yw-2ia" firstAttribute="leading" secondItem="wWI-TA-zyv" secondAttribute="leading" id="MiB-KA-3EK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wWI-TA-zyv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Egl-z5-B8z"/>
+                    <constraint firstAttribute="bottom" secondItem="wWI-TA-zyv" secondAttribute="bottom" constant="8" id="Ge4-uB-fl7"/>
+                    <constraint firstItem="wWI-TA-zyv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="LaS-Y9-KHK"/>
+                    <constraint firstAttribute="trailing" secondItem="wWI-TA-zyv" secondAttribute="trailing" constant="8" id="ujo-Jg-DQW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLbl" destination="H9H-t0-Br6" id="sPD-Y3-hp8"/>
+                <outlet property="nameLbl" destination="A36-Yz-xgu" id="MFY-uA-wbt"/>
+                <outlet property="profileImgBtn" destination="8Ex-As-Mhz" id="ond-qa-2KB"/>
+                <outlet property="srLbl" destination="fHt-hJ-SdX" id="pm5-eu-gyR"/>
+                <outlet property="trackBtn" destination="sMh-XB-pzg" id="zdb-S6-oYP"/>
+                <outlet property="yearLbl" destination="jkc-Oa-DLK" id="gw9-oD-wpW"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="158"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="favorite_off" width="37.5" height="37.5"/>
+        <image name="favorite_on" width="37.5" height="37.5"/>
+    </resources>
+</document>

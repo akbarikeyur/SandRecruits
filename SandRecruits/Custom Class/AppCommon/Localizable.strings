@@ -1,0 +1,21 @@
+
+//Camera
+"please_login" = "Please login for further use of app";
+
+"enter_old_password" = "Please enter old password.";
+"enter_new_password" = "Please enter new password.";
+
+"old_password_and_new_password_must_not_be_same" = "Sorry new password must not be same as current one.";
+"repeat_new_password_error" = "Sorry the password you input doesn't match.";
+
+"enter_name" = "Please enter name.";
+"enter_last_name" = "Please enter last name.";
+"enter_email" = "Please enter email address.";
+"enter_password" = "Please enter password.";
+"invalid_email" = "Invalid email address.";
+"enter_phone_number" = "Please enter phone number.";
+"select_month" = "Please select month";
+"enter_date" = "Please enter date";
+"enter_year" = "please enter year";
+"enter_password" = "Please enter password.";
+"invalid_password" = "Your password must contain a number, an upper and lower case character and a special character. Please try again.";
